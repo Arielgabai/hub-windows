@@ -1,0 +1,21 @@
+{
+  "_aide": "Réglages du hub. Les clés qui commencent par _ sont des commentaires. Chemins : ~ et %VAR% acceptés, / ou \\.",
+  "vault": "~/vault",
+  "timezone": "Europe/Paris",
+  "_repos": "Dépôts git dont harvest relève tes commits du jour (le hub est toujours inclus).",
+  "repos": [],
+  "_git_emails": "Adresses d'auteur à compter comme toi, en plus de git config user.email.",
+  "git_emails": [],
+  "github": true,
+  "_terminal": "vscode : ws open ouvre une fenêtre VS Code sur le dossier du sujet ; wt : un onglet Windows Terminal.",
+  "terminal": "vscode",
+  "max_fronts": 3,
+  "_push_ok_repos": "Dépôts où le garde laisse pousser sur main/master (le hub et le vault y sont ajoutés à l'installation).",
+  "push_ok_repos": [],
+  "protected_branches": ["main", "master"],
+  "_protected_data": "Dossiers dont le garde interdit de lire le contenu (métadonnées permises). Motifs * permis, ex. ~/projets/*/data",
+  "protected_data": [],
+  "protected_data_allow": [],
+  "_headless_allowed_tools": "Outils permis aux rituels non interactifs (claude -p). Pas d'écriture vers l'extérieur.",
+  "headless_allowed_tools": ["Read", "Edit", "Write", "Glob", "Grep", "Bash(git:*)", "Bash(gh:*)", "Bash(python:*)", "Bash(py:*)", "Bash(ws:*)"]
+}

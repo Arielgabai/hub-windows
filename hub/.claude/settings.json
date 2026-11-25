@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ws:*)",
+      "Bash(ws.cmd:*)",
+      "Bash(python bin/ws.py:*)",
+      "Bash(python bin/harvest.py:*)",
+      "Bash(python bin/rituel.py note:*)",
+      "Bash(git status:*)",
+      "Bash(git log:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh search prs:*)"
+    ]
+  }
+}
